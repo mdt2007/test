@@ -1,0 +1,36 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.full {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 20px;
+    margin: 30px;
+    width: 350px;
+    text-align: center;
+    
+}
+.img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.title{
+    font-style: initial;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.price{
+    font-size: 20px;
+}
+.list-group{
+    margin: 30px;
+    width: 400px;
+}
+.footer{
+    background-color: beige !important;
+    color: black!important;
+}
